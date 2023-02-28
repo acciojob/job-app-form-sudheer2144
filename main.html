@@ -8,13 +8,14 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Job App Form</h1>
+	 <h1>Job App Form</h1>
             <hr>
-            <label for="name">Name: </label>
+            <form method="get">
+            <label for="name" id="name">Name: </label>
             <input type="text" id="name">
             <br>
             <label for="email">Email: </label>
-            <input type="text" id="email">
+            <input type="email" id="email">
             <br>
             <label for="gender">Gender:</label>
             <input type="radio" id="male" name="gender" value="MALE">
@@ -22,7 +23,7 @@
             <input type="radio" id="female" name="gender" value="FEMALE">
             <label for="female">Female</label>
             <br>
-            <label>Laptop Brands: </label>
+            <label for="laptop">Laptop Brands: </label>
             <select name="laptop" id="laptop">
                 <option value="APPLE">Apple</option>
                 <option value="ASUS">Asus</option>
@@ -39,6 +40,7 @@
             <input type="password" id="password">
             <br>
             <input type="button" id="submit" value="Submit">
+            </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
